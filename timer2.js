@@ -1,7 +1,7 @@
 const readline = require('readline');
 const rl = readline.createInterface({
 	input: process.stdin,
-	output: process.stdout,
+	output: process.stdout, // can i use console.log?
 });
 rl.question('press "b" to beep or number between 1-9 to delay the beep: ', reply => {
 	if (reply === 'b') {
